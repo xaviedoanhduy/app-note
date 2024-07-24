@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">BT_IntentListener</string>
+    <string name="one_name">One Activity</string>
+    <string name="two_name">Two Activity</string>
+    <string name="three_name">Three Activity</string>
+    <string name="four_name">Four Activity</string>
+
+</resources>
