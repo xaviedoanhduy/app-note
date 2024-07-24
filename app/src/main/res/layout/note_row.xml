@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="wrap_content"
+    android:padding="10dp"
+    android:layout_marginBottom="10dp"
+    android:background="@color/white"
+    android:layout_width="match_parent">
+
+    <TextView
+        android:id="@+id/titleOuput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="My Tilte"
+        android:textColor="#4CAF50"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/contentOuput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/titleOuput"
+        android:text="My content..."
+        android:textColor="#1B1A1A"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/timeOuput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/contentOuput"
+        android:gravity="end"
+        android:text="November 14, 2001"
+        android:textColor="@color/teal_200"
+        android:textSize="12sp" />
+</RelativeLayout>

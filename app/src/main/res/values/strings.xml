@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Do Anh Duy</string>
+    <string name="textView">NOTES</string>
+    <string name="tvTitle">My Note</string>
+    <string name="action_search"> Search</string>
+    <string name="action_sort"> Sort </string>
+    <string name="action_delete"> Remove </string>
+</resources>
